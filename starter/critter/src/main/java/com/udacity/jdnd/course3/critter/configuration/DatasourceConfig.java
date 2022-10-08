@@ -7,16 +7,16 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
-@Configuration
+//@Configuration
 public class DatasourceConfig {
 
-  @Bean
+  /*@Bean
   @Primary
   @ConfigurationProperties(prefix = "com.udacity.course.datasource")
   public DataSource getDatasource() {
     DataSourceBuilder dsb = DataSourceBuilder.create();
     dsb.url("jdbc:mysql://localhost:3306/critter?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC");
     return dsb.build();
-  }
+  }*/
 
 }
